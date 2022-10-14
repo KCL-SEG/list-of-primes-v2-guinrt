@@ -6,7 +6,7 @@ def checkPrime(num):
         return True
     if num > 2:
         for n in range(2, num):
-            num % n == 0:
+            return num % n == 0
 
 def primes(number_of_primes):
     if(number_of_primes <= 0):
